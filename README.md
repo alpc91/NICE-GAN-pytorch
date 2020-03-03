@@ -48,8 +48,9 @@
 ### Metric
 ```
 > python fid_kid.py testA fakeA --mmd-var 
-* You can use gpu, set `--gpu 0` to gpu0
 ```
+* You can use gpu, set `--gpu 0` to gpu0
+
 ## Network
 <div align="center">
   <img src = './figure/network.png' width = '929px' height = '310px'>
