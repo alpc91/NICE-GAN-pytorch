@@ -2,7 +2,7 @@
 ### : Reusing Discriminators for Encoding Towards Unsupervised Image-to-Image Translation
 
 <div align="center">
-  <img src="./figure/title_figure.png">
+  <img src="./figure/title_figure.png" width = '586px' height = '367px'>
 </div>
 
 
@@ -50,6 +50,37 @@
 > python fid_kid.py testA fakeA --mmd-var 
 * You can use gpu, set `--gpu 0` to gpu0
 ```
+## Network
+<div align="center">
+  <img src = './figure/network.png' width = '929px' height = '310px'>
+</div>
+
+## Comparison
+<div align="center">
+  <img src = './figure/contrast.png' width = '752px' height = '868px'>
+</div>
+
+## User study
+<div align="center">
+  <img src = './figure/column_big.png' width = '448px' height = '238px'>
+</div>
+
+## t-SNE
+<div align="center">
+  <img src = './figure/tsne.png'>
+</div>
+
+## Heatmaps
+<div align="center">
+  <img src = './figure/heatmaps.png' width = '643px' height = '456px'>
+</div>
+
+## Shared latent space
+<div align="center">
+  <img src = './figure/shared_int.png' width = '890px' height = '247px'>
+</div>
+
+
 
 ## Author
 Runfa Chen, Wenbing Huang, Binghui Huang, Fuchun Sun, Bin Fang (Tsinghua University)
