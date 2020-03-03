@@ -1,6 +1,10 @@
 ## NICE-GAN &mdash; Official PyTorch Implementation
 ### : Reusing Discriminators for Encoding Towards Unsupervised Image-to-Image Translation
 
+<div align="center">
+  <img src="./figure/title_figure.png">
+</div>
+
 
 ### [Paper](https://arxiv.org/abs/2003.00273) 
 
@@ -34,3 +38,4 @@
 
 ## Author
 Runfa Chen, Wenbing Huang, Binghui Huang, Fuchun Sun, Bin Fang (Tsinghua University)
+[Tsinghua Robot Learning Lab](https://github.com/tsinghua-rll)
