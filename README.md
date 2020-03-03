@@ -49,7 +49,7 @@
 ```
 > python fid_kid.py testA fakeA --mmd-var 
 ```
-* You can use gpu, set `--gpu 0` to gpu0
+* You can use gpu, set `--gpu` to **the index of gpu**, such as `--gpu 0`
 
 ## Network
 <div align="center">
