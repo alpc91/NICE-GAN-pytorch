@@ -34,7 +34,22 @@
            ├── ddd.png
            └── ...
 ```
+### Train
+```
+> python main.py --dataset cat2dog
+```
+* If the memory of gpu is **not sufficient**, set `--light` to True
 
+### Test
+```
+> python main.py --dataset cat2dog --phase test
+```
+
+### Metric
+```
+> python fid_kid.py testA fakeA --mmd-var 
+* You can use gpu, set `--gpu 0` to gpu0
+```
 
 ## Author
 Runfa Chen, Wenbing Huang, Binghui Huang, Fuchun Sun, Bin Fang (Tsinghua University)
