@@ -81,7 +81,19 @@
   <img src = './figure/shared_int.png' width = '890px' height = '247px'>
 </div>
 
+## Citation
+If you find this code useful for your research, please cite our paper:
 
+```
+@misc{chen2020reusing,
+    title={Reusing Discriminators for Encoding Towards Unsupervised Image-to-Image Translation},
+    author={Runfa Chen and Wenbing Huang and Binghui Huang and Fuchun Sun and Bin Fang},
+    year={2020},
+    eprint={2003.00273},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 
 ## Author
 Runfa Chen, Wenbing Huang, Binghui Huang, Fuchun Sun, Bin Fang (Tsinghua University)
