@@ -67,7 +67,7 @@
 
 ## t-SNE
 <div align="center">
-  <img src = './figure/tsne.png'>
+  <img src = './figure/tsne.png' width = '711px' height = '207px'>
 </div>
 
 ## Heatmaps
