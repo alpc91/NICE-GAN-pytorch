@@ -46,12 +46,14 @@ class ResnetGenerator(nn.Module):
         UpBlock2 = []
         for i in range(n_downsampling):
             mult = 2**(n_downsampling - i)
+            # Experiments show that the performance of Up-sample and Sub-pixel is similar,
+            #  although theoretically Sub-pixel has more parameters and less FLOPs.
             # UpBlock2 += [nn.Upsample(scale_factor=2, mode='nearest'),
             #              nn.ReflectionPad2d(1),
             #              nn.Conv2d(ngf * mult, int(ngf * mult / 2), kernel_size=3, stride=1, padding=0, bias=False),
             #              ILN(int(ngf * mult / 2)),
             #              nn.ReLU(True)]
-            UpBlock2 += [nn.ReflectionPad2d(1),
+            UpBlock2 += [nn.ReflectionPad2d(1),   
                          nn.Conv2d(ngf * mult, int(ngf * mult / 2), kernel_size=3, stride=1, padding=0, bias=False),
                          ILN(int(ngf * mult / 2)),
                          nn.ReLU(True),
