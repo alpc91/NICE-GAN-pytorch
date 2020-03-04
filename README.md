@@ -65,6 +65,13 @@ If you find this code useful for your research, please cite our paper:
 ```
 * If the memory of gpu is **not sufficient**, set `--light` to True
 
+### Restoring from the previous checkpoint
+```
+> python main.py --dataset cat2dog --resume True
+```
+* Previous checkpoint:  **dataset**_params_latest.pt
+* If the memory of gpu is **not sufficient**, set `--light` to True
+
 ### Test
 ```
 > python main.py --dataset cat2dog --phase test
