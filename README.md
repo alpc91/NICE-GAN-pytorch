@@ -106,6 +106,8 @@ If you find this code useful for your research, please cite our paper:
   <img src = './figure/shared_int.png' width = '890px' height = '247px'>
 </div>
 
+## Acknowledgments
+Our code is inspired by [UGATIT-pytorch](https://github.com/znxlwm/UGATIT-pytorch).
 
 
 
