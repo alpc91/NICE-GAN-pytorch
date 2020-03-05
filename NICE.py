@@ -8,7 +8,6 @@ from glob import glob
 # import torch.utils.tensorboard as tensorboardX
 from thop import profile
 from thop import clever_format
-import fid_kid
 
 class NICE(object) :
     def __init__(self, args):
