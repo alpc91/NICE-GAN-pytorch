@@ -56,7 +56,7 @@ If you find this code useful for your research, please cite our paper:
 * Pytorch 1.1.0 and torchvision (https://pytorch.org/)
 * TensorboardX
 * Tensorflow (for tensorboard usage)
-* We provide a Docker file for building the environment based on CUDA 10.0.130, CuDNN 7.3, and Ubuntu 16.04.
+* CUDA 10.0.130, CuDNN 7.3, and Ubuntu 16.04.
 
 
 ### Train
