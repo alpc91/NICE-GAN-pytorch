@@ -1,0 +1,8 @@
+@misc{chen2020reusing,
+    title={Reusing Discriminators for Encoding: Towards Unsupervised Image-to-Image Translation},
+    author={Runfa Chen and Wenbing Huang and Binghui Huang and Fuchun Sun and Bin Fang},
+    year={2020},
+    eprint={2003.00273},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
