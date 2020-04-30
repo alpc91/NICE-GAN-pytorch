@@ -71,7 +71,7 @@ If you find this code useful for your research, please cite our paper:
 ```
 * Previous checkpoint:  **dataset**_params_latest.pt
 * If the memory of gpu is **not sufficient**, set `--light` to True
-* Trained models:
+* Trained models(set --light to True):
 Our previous checkpoint on cat2dog can be downloaded from https://drive.google.com/open?id=1gIA5yhkY71zasY_lXheNjYvphqwhN0Os
 
 ### Test
