@@ -122,7 +122,7 @@ class NICE(object) :
         self.disB = Discriminator(input_nc=self.img_ch, ndf=self.ch, n_layers=self.n_dis).to(self.device)
         
         print('-----------------------------------------------')
-        input = torch.randn([1, 3, 256, 256]).to(self.device)
+        input = torch.randn([1, self.img_ch, self.img_size, self.img_size]).to(self.device)
         macs, params = profile(self.disA, inputs=(input, ))
         macs, params = clever_format([macs*2, params*2], "%.3f")
         print('[Network %s] Total number of parameters: ' % 'disA', params)
