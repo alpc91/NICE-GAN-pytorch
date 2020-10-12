@@ -20,13 +20,12 @@ Runfa Chen, Wenbing Huang, Binghui Huang, Fuchun Sun, Bin Fang
 If you find this code useful for your research, please cite our paper:
 
 ```
-@misc{chen2020reusing,
-    title={Reusing Discriminators for Encoding: Towards Unsupervised Image-to-Image Translation},
-    author={Runfa Chen and Wenbing Huang and Binghui Huang and Fuchun Sun and Bin Fang},
-    year={2020},
-    eprint={2003.00273},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@InProceedings{Chen_2020_CVPR,
+author = {Chen, Runfa and Huang, Wenbing and Huang, Binghui and Sun, Fuchun and Fang, Bin},
+title = {Reusing Discriminators for Encoding: Towards Unsupervised Image-to-Image Translation},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
 }
 ```
 
